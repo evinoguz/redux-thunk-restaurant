@@ -1,0 +1,543 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Lezzetin Tadı",
+      "minPrice": 50,
+      "estimatedDelivery": 45,
+      "photo": "https://picsum.photos/400",
+      "rating": 4.7,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "2",
+      "name": "Aromalı Ev",
+      "minPrice": 40,
+      "estimatedDelivery": 35,
+      "photo": "https://picsum.photos/401",
+      "rating": 4.5,
+      "isDeliveryFree": false
+    },
+    {
+      "id": "3",
+      "name": "Lezzet Köşesi",
+      "minPrice": 60,
+      "estimatedDelivery": 50,
+      "photo": "https://picsum.photos/402",
+      "rating": 4.8,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "4",
+      "name": "Keyifli Mekan",
+      "minPrice": 45,
+      "estimatedDelivery": 40,
+      "photo": "https://picsum.photos/403",
+      "rating": 4.6,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "5",
+      "name": "Tadı Damağınızda",
+      "minPrice": 55,
+      "estimatedDelivery": 55,
+      "photo": "https://picsum.photos/404",
+      "rating": 4.9,
+      "isDeliveryFree": false
+    },
+    {
+      "id": "6",
+      "name": "Lezzet Pınarı",
+      "minPrice": 55,
+      "estimatedDelivery": 40,
+      "photo": "https://picsum.photos/405",
+      "rating": 4.4,
+      "isDeliveryFree": false
+    },
+    {
+      "id": "7",
+      "name": "Sağlıklı İstasyon",
+      "minPrice": 60,
+      "estimatedDelivery": 50,
+      "photo": "https://picsum.photos/406",
+      "rating": 4.6,
+      "isDeliveryFree": true
+    },
+    {
+      "id": "8",
+      "name": "Baharatlı Lezzetler",
+      "minPrice": 50,
+      "estimatedDelivery": 45,
+      "photo": "https://picsum.photos/407",
+      "rating": 4.7,
+      "isDeliveryFree": true
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Izgara Somon",
+      "desc": "Taze somon balığı ızgara edilmiş, yanında sebzelerle servis edilir.",
+      "category": "Deniz Ürünleri",
+      "price": 45.99,
+      "rating": 4.8,
+      "photo": "https://picsum.photos/200",
+      "restaurantId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Margarita Pizza",
+      "desc": "İnce hamur üzerine taze mozzarella peyniri, domates sosu ve fesleğen ile yapılan klasik pizza.",
+      "category": "Pizza",
+      "price": 12.99,
+      "rating": 4.5,
+      "photo": "https://picsum.photos/201",
+      "restaurantId": "2"
+    },
+    {
+      "id": "3",
+      "title": "Tavuk Kebabı",
+      "desc": "Marine edilmiş tavuk parçaları şişe dizilerek mangalda pişirilir.",
+      "category": "Kebaplar",
+      "price": 17.99,
+      "rating": 4.7,
+      "photo": "https://picsum.photos/203",
+      "restaurantId": "1"
+    },
+    {
+      "id": "4",
+      "title": "Çikolatalı Brownie",
+      "desc": "Yoğun çikolata tadıyla enfes brownie, üzerine vanilyalı dondurma ile servis edilir.",
+      "category": "Tatlılar",
+      "price": 8.99,
+      "rating": 4.9,
+      "photo": "https://picsum.photos/203",
+      "restaurantId": "3"
+    },
+    {
+      "id": "5",
+      "title": "Fırın Makarna",
+      "desc": "Fırında pişirilmiş makarna, mozarella peyniri ve domates sosu ile hazırlanmıştır.",
+      "category": "Makarnalar",
+      "price": 10.99,
+      "rating": 4.6,
+      "photo": "https://picsum.photos/204",
+      "restaurantId": "4"
+    },
+    {
+      "id": "6",
+      "title": "Güveçte Et Sote",
+      "desc": "Taze sebzeler ve baharatlarla harmanlanmış dana eti, güveçte pişirilir.",
+      "category": "Et Yemekleri",
+      "price": 22.99,
+      "rating": 4.4,
+      "photo": "https://picsum.photos/205",
+      "restaurantId": "5"
+    },
+    {
+      "id": "7",
+      "title": "Fırın Tavuk But",
+      "desc": "Baharatlarla marine edilmiş tavuk butları, fırında kızartılarak servis edilir.",
+      "category": "Tavuk Yemekleri",
+      "price": 14.99,
+      "rating": 4.7,
+      "photo": "https://picsum.photos/206",
+      "restaurantId": "7"
+    },
+    {
+      "id": "8",
+      "title": "Sebzeli Noodle",
+      "desc": "Çeşitli sebzeler ve noodle ile hazırlanmış hafif ve lezzetli bir Asya yemeği.",
+      "category": "Asya Mutfağı",
+      "price": 11.99,
+      "rating": 4.6,
+      "photo": "https://picsum.photos/207",
+      "restaurantId": "8"
+    },
+    {
+      "id": "9",
+      "title": "İtalyan Salata",
+      "desc": "Taze roka, cherry domates, mozzarella peyniri ve balsamik sos ile yapılan hafif bir salata.",
+      "category": "Salatalar",
+      "price": 8.49,
+      "rating": 4.3,
+      "photo": "https://picsum.photos/208",
+      "restaurantId": "3"
+    },
+    {
+      "id": "10",
+      "title": "Köri Tavuk",
+      "desc": "Hint usulü köri sosu ile pişirilmiş tavuk parçaları, yanında pirinç pilavı ile servis edilir.",
+      "category": "Hint Mutfağı",
+      "price": 16.99,
+      "rating": 4.8,
+      "photo": "https://picsum.photos/209",
+      "restaurantId": "5"
+    },
+    {
+      "id": "11",
+      "title": "Mevsim Salata",
+      "desc": "Mevsim sebzeleri ile hazırlanmış ferahlatıcı bir salata.",
+      "category": "Salatalar",
+      "price": 7.99,
+      "rating": 4.5,
+      "photo": "https://picsum.photos/210",
+      "restaurantId": "4"
+    },
+    {
+      "id": "12",
+      "title": "Çıtır Tavuk Kanadı",
+      "desc": "Çıtır çıtır kızarmış tavuk kanatları, yanında sos ile servis edilir.",
+      "category": "Atıştırmalıklar",
+      "price": 9.99,
+      "rating": 4.4,
+      "photo": "https://picsum.photos/211",
+      "restaurantId": "2"
+    },
+    {
+      "id": "42",
+      "title": "Margarita Pizza",
+      "desc": "İnce hamur üzerine taze mozzarella peyniri, domates sosu ve fesleğen ile yapılan klasik pizza.",
+      "category": "Pizza",
+      "price": 12.99,
+      "rating": 4.5,
+      "photo": "https://picsum.photos/211",
+      "restaurantId": "2"
+    },
+    {
+      "id": "53",
+      "title": "Tavuk Kebabı",
+      "desc": "Marine edilmiş tavuk parçaları şişe dizilerek mangalda pişirilir.",
+      "category": "Kebaplar",
+      "price": 17.99,
+      "rating": 4.7,
+      "photo": "https://picsum.photos/212",
+      "restaurantId": "3"
+    },
+    {
+      "id": "24",
+      "title": "Çikolatalı Brownie",
+      "desc": "Yoğun çikolata tadıyla enfes brownie, üzerine vanilyalı dondurma ile servis edilir.",
+      "category": "Tatlılar",
+      "price": 8.99,
+      "rating": 4.9,
+      "photo": "https://picsum.photos/213",
+      "restaurantId": "4"
+    },
+    {
+      "id": "35",
+      "title": "Fırın Makarna",
+      "desc": "Fırında pişirilmiş makarna, mozarella peyniri ve domates sosu ile hazırlanmıştır.",
+      "category": "Makarnalar",
+      "price": 10.99,
+      "rating": 4.6,
+      "photo": "https://picsum.photos/214",
+      "restaurantId": "5"
+    },
+    {
+      "id": "76",
+      "title": "Güveçte Et Sote",
+      "desc": "Taze sebzeler ve baharatlarla harmanlanmış dana eti, güveçte pişirilir.",
+      "category": "Et Yemekleri",
+      "price": 22.99,
+      "rating": 4.4,
+      "photo": "https://picsum.photos/215",
+      "restaurantId": "6"
+    },
+    {
+      "id": "57",
+      "title": "Fırın Tavuk But",
+      "desc": "Baharatlarla marine edilmiş tavuk butları, fırında kızartılarak servis edilir.",
+      "category": "Tavuk Yemekleri",
+      "price": 14.99,
+      "rating": 4.7,
+      "photo": "https://picsum.photos/216",
+      "restaurantId": "7"
+    },
+    {
+      "id": "38",
+      "title": "Sebzeli Noodle",
+      "desc": "Çeşitli sebzeler ve noodle ile hazırlanmış hafif ve lezzetli bir Asya yemeği.",
+      "category": "Asya Mutfağı",
+      "price": 11.99,
+      "rating": 4.6,
+      "photo": "https://picsum.photos/217",
+      "restaurantId": "8"
+    },
+    {
+      "id": "29",
+      "title": "İtalyan Salata",
+      "desc": "Taze roka, cherry domates, mozzarella peyniri ve balsamik sos ile yapılan hafif bir salata.",
+      "category": "Salatalar",
+      "price": 8.49,
+      "rating": 4.3,
+      "photo": "https://picsum.photos/210",
+      "restaurantId": "5"
+    },
+    {
+      "id": "310",
+      "title": "Köri Tavuk",
+      "desc": "Hint usulü köri sosu ile pişirilmiş tavuk parçaları, yanında pirinç pilavı ile servis edilir.",
+      "category": "Hint Mutfağı",
+      "price": 16.99,
+      "rating": 4.8,
+      "photo": "https://picsum.photos/211",
+      "restaurantId": "4"
+    },
+    {
+      "id": "111",
+      "title": "Mevsim Salata",
+      "desc": "Mevsim sebzeleri ile hazırlanmış ferahlatıcı bir salata.",
+      "category": "Salatalar",
+      "price": 7.99,
+      "rating": 4.5,
+      "photo": "https://picsum.photos/212",
+      "restaurantId": "2"
+    }
+  ],
+  "card": [
+    {
+      "id": "3ddb5747-6dd9-4766-b7f3-3f24588bfda4",
+      "productId": "2",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/201",
+      "restaurantName": "Aromalı Ev",
+      "amount": 4
+    },
+    {
+      "id": "fcceb18d-69b8-45c8-b08c-09b060a92ea7",
+      "productId": "42",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/211",
+      "restaurantName": "Aromalı Ev",
+      "amount": 2
+    },
+    {
+      "id": "422682c7-4c2d-4c9c-bc2c-63ec21a82ee1",
+      "productId": "2",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/201",
+      "restaurantName": "Aromalı Ev",
+      "amount": 4
+    },
+    {
+      "id": "e5d12e1b-802c-4a29-bd83-2dfb7120b57f",
+      "productId": "42",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/211",
+      "restaurantName": "Aromalı Ev",
+      "amount": 11
+    },
+    {
+      "id": "15c4b448-fac9-4275-ba1a-43c3f45d33d6",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 7
+    },
+    {
+      "id": "0b76ff6d-3639-408c-9fd9-83ddf46321ae",
+      "productId": "3",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "45570f2f-0fe7-4e50-894e-e90d6fc5e66d",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "98e1dc32-9836-422e-97a0-8faffa850a5f",
+      "productId": "3",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 3
+    },
+    {
+      "id": "c00013c2-5eed-44f8-8888-2e0b90650798",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 2
+    },
+    {
+      "id": "dcb4db51-96c7-4d9b-a9ab-0f5d3dff2c92",
+      "productId": "3",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "ca7a6827-d6f7-49ae-b42f-810ff3a7f74a",
+      "productId": "7",
+      "title": "Fırın Tavuk But",
+      "price": 14.99,
+      "photo": "https://picsum.photos/206",
+      "restaurantName": "Sağlıklı İstasyon",
+      "amount": 1
+    },
+    {
+      "id": "dae6925e-46bf-42c4-9d11-bcdf60381845",
+      "productId": "57",
+      "title": "Fırın Tavuk But",
+      "price": 14.99,
+      "photo": "https://picsum.photos/216",
+      "restaurantName": "Sağlıklı İstasyon",
+      "amount": 2
+    },
+    {
+      "id": "8b611633-fbf7-453f-92cf-1d9237f4c74d",
+      "productId": "2",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/201",
+      "restaurantName": "Aromalı Ev",
+      "amount": 6
+    },
+    {
+      "id": "9e2865ab-bb66-4e67-8b31-29cf054bdc9d",
+      "productId": "42",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/211",
+      "restaurantName": "Aromalı Ev",
+      "amount": 2
+    },
+    {
+      "id": "6726eeeb-b196-4c10-9365-0b99e7f4a8b2",
+      "productId": "12",
+      "title": "Çıtır Tavuk Kanadı",
+      "price": 9.99,
+      "photo": "https://picsum.photos/211",
+      "restaurantName": "Aromalı Ev",
+      "amount": 1
+    },
+    {
+      "id": "7a7dd330-5677-4864-acb9-f068b149c2fe",
+      "productId": "1",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "9d2f91c5-8b34-432b-866b-f527ac04dd6c",
+      "productId": "3",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzetin Tadı",
+      "amount": 1
+    },
+    {
+      "id": "3160bf52-53df-4008-9ea6-c8028731f7e0",
+      "productId": "42",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/211",
+      "restaurantName": "Aromalı Ev",
+      "amount": 3
+    },
+    {
+      "id": "9bf6e463-598d-4929-a04c-a2b25de73e68",
+      "productId": "2",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/201",
+      "restaurantName": "Aromalı Ev",
+      "amount": 2
+    },
+    {
+      "id": "3cfffa7e-3117-4ce8-be0c-cffdf7254364",
+      "productId": "12",
+      "title": "Çıtır Tavuk Kanadı",
+      "price": 9.99,
+      "photo": "https://picsum.photos/211",
+      "restaurantName": "Aromalı Ev",
+      "amount": 1
+    },
+    {
+      "id": "094a7432-437f-445b-839a-88035ff12db9",
+      "productId": "4",
+      "title": "Çikolatalı Brownie",
+      "price": 8.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzet Köşesi",
+      "amount": 1
+    },
+    {
+      "id": "45186297-1c27-4b31-b73c-b4b2ca806e93",
+      "productId": "12",
+      "title": "Çıtır Tavuk Kanadı",
+      "price": 9.99,
+      "photo": "https://picsum.photos/211",
+      "restaurantName": "Aromalı Ev",
+      "amount": 2
+    },
+    {
+      "id": "c8714b44-ed51-4001-8641-56a8c44a6ef0",
+      "productId": "111",
+      "title": "Mevsim Salata",
+      "price": 7.99,
+      "photo": "https://picsum.photos/212",
+      "restaurantName": "Aromalı Ev",
+      "amount": 3
+    },
+    {
+      "id": "4bb8afa0-28f9-4f00-9014-651d35eb05f0",
+      "productId": "42",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/211",
+      "restaurantName": "Aromalı Ev",
+      "amount": 1
+    },
+    {
+      "id": "3ff9e0c0-265f-4515-857d-31ddab3f9215",
+      "productId": "4",
+      "title": "Çikolatalı Brownie",
+      "price": 8.99,
+      "photo": "https://picsum.photos/203",
+      "restaurantName": "Lezzet Köşesi",
+      "amount": 3
+    },
+    {
+      "id": "c715e998-4f84-4df1-a260-2ec0fd0c83f9",
+      "productId": "42",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/211",
+      "restaurantName": "Aromalı Ev",
+      "amount": 3
+    },
+    {
+      "id": "6dab6801-b43b-44f9-bca3-5bf4df0ea66a",
+      "productId": "2",
+      "title": "Margarita Pizza",
+      "price": 12.99,
+      "photo": "https://picsum.photos/201",
+      "restaurantName": "Aromalı Ev",
+      "amount": 3
+    }
+  ]
+}
